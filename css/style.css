@@ -38,6 +38,7 @@ ul{
     right: 0%;
   }
   header ul li {
+    display : inline;
     padding-top: 36px;
   }
 
