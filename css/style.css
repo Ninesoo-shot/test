@@ -27,7 +27,7 @@ ul{
   }
 
   header ul {
-    width: 60%;
+    width: 100%;
     display: inline-block;
     align-items: right;
     justify-content: flex-end;
