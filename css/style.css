@@ -10,10 +10,6 @@ ul{
     display: flex;
     z-index: 5;
   }
-  header h2 {
-    padding-top: 20px;
-    padding-left: 40px;
-  }
   header ul {
     width: 40%;
     display: flex;
@@ -25,10 +21,6 @@ ul{
     position: absolute;
     right: 0%;
   }
-  header ul li {
-    padding-top: 36px;
-  }
-
   header ul li a {
     font-size: 1.2vw;
   }
