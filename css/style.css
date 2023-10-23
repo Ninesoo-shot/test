@@ -1,32 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 ul{
     list-style: none;
 }
-@media (min-width: 801px){
+
+@media (min-width: 801px) {
+  /*header*/
   header {
-    width : 100%;
-    position : fixed;
-    background-color : white;
-    display : flex;
-    z-index : 5;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    z-index: 5;
   }
-  header .logo{
-    display : inline;
+  header .mobile_header {
+    display: none;
+  }
+  header h2 {
+    padding-top: 20px;
+    padding-left: 40px;
   }
   header ul {
-    width : 40%;
-    display : inline;
-    height : 100px;
-    box-sizing : border-box;
-    justify-content : space-between;
-    padding : 0px 50px;
-    padding-right : 70px;
-    position : absolute;
-    right : 0%;
-    margin-top : 0;
+    width: 40%;
+    display: flex;
+    height: 100px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding-right: 70px;
+    position: absolute;
+    right: 0%;
   }
   header ul li {
-    display: inline;
+    padding-top: 36px;
   }
+
   header ul li a {
     font-size: 1.2vw;
   }
