@@ -21,8 +21,8 @@ ul{
     padding-left: 40px;
   }
 
-  header .logo{
-    display : inline;
+  h1 .logo{
+    display: inline;
   }
 
   header ul {
