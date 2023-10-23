@@ -25,7 +25,7 @@ ul{
   }
   header ul {
     width: 40%;
-    display: flex;
+    display: inline;
     height: 100px;
     box-sizing: border-box;
     justify-content: space-between;
