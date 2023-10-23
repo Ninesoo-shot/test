@@ -11,16 +11,20 @@ ul{
     display: flex;
     z-index: 5;
   }
+
   header .mobile_header {
     display: none;
   }
+
   header h2 {
     padding-top: 20px;
     padding-left: 40px;
   }
+
   header .logo{
     display : inline;
   }
+
   header ul {
     width: 40%;
     display: inline;
@@ -33,10 +37,11 @@ ul{
     right: 0%;
     margin-top: 0;
   }
+
   header ul li {
     display : inline;
     padding-top: 20px;
-    margin-top: 10px;
+    margin-left: 20px;
   }
 
   header ul li a {
