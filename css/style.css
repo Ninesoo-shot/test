@@ -33,11 +33,11 @@ ul{
 
   header ul {
     width: 40%;
-    display: inline;
+    display: flex;
     height: 100px;
     box-sizing: border-box;
-    justify-content: space-between;
-    padding: 0px 10px;
+    justify-content: flex-end;
+    padding: 0px;
 		margin-top: 30px;
   }
 
