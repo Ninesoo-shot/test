@@ -28,7 +28,8 @@ ul{
 
   header ul {
     width: 60%;
-    display: inline;
+    display: flex;
+    align-items: center;
     height: 100px;
     box-sizing: border-box;
     justify-content: flex-end;
@@ -40,6 +41,7 @@ ul{
     display : inline;
     padding-top: 20px;
     margin-left: 20px;
+    vertical-align: middle;
   }
 
   header ul li a {
