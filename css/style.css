@@ -23,6 +23,7 @@ ul{
   header .logo {
     display: inline-block;
     margin-right: 20px;
+    vertical-align: middle;
   }
 
   header ul {
@@ -30,6 +31,7 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    vertical-align: middle;
   }
 
   header ul li {
