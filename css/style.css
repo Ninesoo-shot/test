@@ -21,30 +21,20 @@ ul{
   }
 
   header .logo {
-    float: left;
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
   }
 
   header ul {
-    float: right;
-    width: 100%;
-    display: inline;
-    align-items: right;
-    justify-content: flex-end;
-    height: 100px;
+    display: inline-block;
+    list-style: none;
     margin: 0;
+    padding: 0;
   }
 
-  header ::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
   header ul li {
     display: inline;
     margin-left: 20px;
-    vertical-align: middle;
   }
 
   header ul li a {
